@@ -1,0 +1,57 @@
+.CONTENEDOR {
+    display: flex;
+    border: 2px solid #333;
+    margin: 20px;
+    padding: 10px;
+    gap: 10px
+}
+
+.ITEM {
+    height: 100px;
+    width: 100px;
+    background-color: #3498db;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.DIRECTION_ROW {
+    flex-direction: row;
+}
+
+.DIRECTION_COLUMN {
+    flex-direction: column;
+}
+
+/* Ejemplos de flex-WRAP */
+.NOWRAP {
+    flex-WRAP: NOWRAP;
+    width: 350px;
+}
+
+.WRAP {
+    flex-WRAP: WRAP;
+    width: 350px;
+}
+
+/* Ejemplos de justify-content */
+.JUSTIFY_CENTER {
+    justify-content: center;
+}
+.JUSTIFY_BETWEEN {
+    justify-content: space-between;
+}
+.JUSTIFY_AROUND {
+    justify-content: space-around;
+}
+
+/* Ejempos de align-ITEM */
+.ALIGN_CENTER {
+    align-items: center;
+    height: 200px;
+}
+.ALIGN_START {
+    align-items: flex-start;
+    height: 200px;
+}
